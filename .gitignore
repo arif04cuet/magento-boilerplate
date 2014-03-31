@@ -330,3 +330,6 @@ publish
 # inherits all styling from 'boilerplate'
 # and makes upgrading easier!
 !/skin/frontend/mytheme
+
+index.php
+.htaccess
