@@ -12538,5 +12538,35 @@ header[role="banner"]:after,
 }
 /* All of local customization goes here*/
 a {
-  color: #ff0000;
+  color: #f3f3f3;
+}
+a:hover {
+  color: #e34373;
+  text-decoration: none;
+}
+.black {
+  background-color: #000000;
+  color: #f3f3f3;
+}
+.topbar {
+  padding: 5px;
+  margin: 0;
+  border-radius: 0;
+  min-height: 30px;
+}
+.topbar #toplinksbar {
+  padding-right: 0;
+}
+.welcome-msg {
+  margin: 0;
+}
+.topbar .links {
+  margin: 0;
+}
+.topbar .links li a {
+  padding: 0 7px 0 4px;
+  border-right: 1px solid #f3f3f3;
+}
+.topbar .links li.last a {
+  border-right: 0;
 }
