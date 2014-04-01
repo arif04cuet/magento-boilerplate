@@ -12533,6 +12533,9 @@ header[role="banner"]:after,
 .selecter {
   max-width: 100%;
 }
+.selecter .selecter-selected {
+  background: #f9f9f9 url('../../images/jquery.fs.selecter-arrow.png') no-repeat right center;
+}
 /* All of local customization goes here*/
 a {
   color: #ff0000;
