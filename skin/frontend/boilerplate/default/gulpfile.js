@@ -30,6 +30,8 @@ gulp.task('js', function () {
         .src([
             'bower_components/jquery/dist/jquery.min.js',
             'bower_components/bootstrap/dist/js/bootstrap.min.js',
+            'bower_components/holderjs/holder.js',
+            'bower_components/Selecter/jquery.fs.selecter.min.js',
             'js/script.js'
         ])
         .pipe(concat('script.js'))

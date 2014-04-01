@@ -1,4 +1,4 @@
-# Magento Boilerplate
+# My Bootstrap magento theme
 ### A HTML5 Twitter Bootstrap 3.1 Magento 1.8 Boilerplate Template
 
 Read the [blog post](http://www.webcomm.com.au/blog/2013/09/introducing-magento-boilerplate-a-twitter-bootstrap-3-powered-html5-mobile-first-starter-theme) or checkout the [demo](http://magentoboilerplate.webcomm.com.au) for more information.
