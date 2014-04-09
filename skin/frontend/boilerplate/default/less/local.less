@@ -2,7 +2,8 @@
 @primary-color: #F3F3F3;
 @secondary-color: #E34373;
 @black:#000;
-a{color: @primary-color}
+@white:#FFF;
+a{color: @black}
 a:hover{color: @secondary-color;text-decoration: none}
 .black {
   background-color: @black;
@@ -10,6 +11,8 @@ a:hover{color: @secondary-color;text-decoration: none}
 }
 .topbar{padding: 5px;margin: 0;border-radius: 0;min-height: 30px;}
 .topbar #toplinksbar{padding-right: 0}
+.topbar #toplinksbar a{color: @white}
+.topbar #toplinksbar a:hover{color: @secondary-color}
 .welcome-msg{margin: 0}
 .topbar .links{margin: 0}
 .topbar .links li a{padding:0 7px 0 4px;border-right: 1px solid @primary-color}
